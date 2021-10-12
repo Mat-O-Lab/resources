@@ -4,7 +4,7 @@
         {
             "cco": "http://www.ontologyrepository.com/CommonCoreOntologies/",
             "mseo": "https://purl.matolab.org/mseo/mid/",
-            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
             "xsd": "http://www.w3.org/2001/XMLSchema#"
         }
     ],
@@ -12,7 +12,7 @@
     "notes": [
         {
             "@id": "./AktuelleProbe",
-            "rdfs:label": "aktuelle Probe",
+            "label": "aktuelle Probe",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
                 "@value": "12",
@@ -25,7 +25,7 @@
         },
         {
             "@id": "./Einspannlaenge",
-            "rdfs:label": "Einspannl\u00e4nge",
+            "label": "Einspannl\u00e4nge",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "832.756",
@@ -42,7 +42,7 @@
         },
         {
             "@id": "./Messlaenge",
-            "rdfs:label": "Messl\u00e4nge",
+            "label": "Messl\u00e4nge",
             "@type": "cco:InformationLine",
             "cco:has_text_value": {
                 "@value": "nicht bekannt",
@@ -55,7 +55,7 @@
         },
         {
             "@id": "./ProbenbreiteB0",
-            "rdfs:label": "Probenbreite b0",
+            "label": "Probenbreite b0",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "11.8",
@@ -72,7 +72,7 @@
         },
         {
             "@id": "./ProbendickeA0",
-            "rdfs:label": "Probendicke a0",
+            "label": "Probendicke a0",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "0.19",
@@ -89,7 +89,7 @@
         },
         {
             "@id": "./Pruefgeschwindigkeit",
-            "rdfs:label": "Pr\u00fcfgeschwindigkeit",
+            "label": "Pr\u00fcfgeschwindigkeit",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
                 "@value": "150",
@@ -106,7 +106,7 @@
         },
         {
             "@id": "./Vorkraft",
-            "rdfs:label": "Vorkraft",
+            "label": "Vorkraft",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "0.2",
@@ -123,7 +123,7 @@
         },
         {
             "@id": "./WegNachBruch",
-            "rdfs:label": "Weg nach Bruch",
+            "label": "Weg nach Bruch",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
                 "@value": "5",
@@ -140,7 +140,7 @@
         },
         {
             "@id": "./EModul",
-            "rdfs:label": "E-Modul",
+            "label": "E-Modul",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "1122.17",
@@ -157,7 +157,7 @@
         },
         {
             "@id": "./DehnungBeiFmax",
-            "rdfs:label": "Dehnung bei Fmax",
+            "label": "Dehnung bei Fmax",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "329.978",
@@ -174,7 +174,7 @@
         },
         {
             "@id": "./DehnungBeiBruch",
-            "rdfs:label": "Dehnung bei Bruch",
+            "label": "Dehnung bei Bruch",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "336.912",
@@ -191,7 +191,7 @@
         },
         {
             "@id": "./ObereStreckgrenze",
-            "rdfs:label": "obere Streckgrenze",
+            "label": "obere Streckgrenze",
             "@type": "cco:InformationLine",
             "cco:has_text_value": {
                 "@value": "nicht bekannt",
@@ -204,7 +204,7 @@
         },
         {
             "@id": "./Kraftmaximum",
-            "rdfs:label": "Kraftmaximum",
+            "label": "Kraftmaximum",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "38.7942",
@@ -221,7 +221,7 @@
         },
         {
             "@id": "./Bruchkraft",
-            "rdfs:label": "Bruchkraft",
+            "label": "Bruchkraft",
             "@type": "cco:InformationLine",
             "cco:has_text_value": {
                 "@value": "nicht bekannt",
@@ -234,7 +234,7 @@
         },
         {
             "@id": "./GeschwindigkeitEModul",
-            "rdfs:label": "Geschwindigkeit E-Modul",
+            "label": "Geschwindigkeit E-Modul",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
                 "@value": "1",
@@ -251,7 +251,7 @@
         },
         {
             "@id": "./Datum",
-            "rdfs:label": "Datum",
+            "label": "Datum",
             "@type": "cco:InformationLine",
             "cco:has_datetime_value": {
                 "@value": "2008-02-20 00:00:00",

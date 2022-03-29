@@ -27,4 +27,7 @@ jobs:
         run: docker run -d -p 80:5000 matolab:csvtocsvw
       # curl call to api endpoint
       - name: example curl call to api endpoint
-        run: curl -X POST "http://localhost/api" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"data_url\":\"https://raw.githubusercontent.com/Mat-O-Lab/resources/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt2.TRA\",\"separator\":\"auto\",\"encoding\":\"auto\"}"
+        run: |
+          curl -X POST "http://localhost/api" -H  "accept: application/json" -H  \
+            "Content-Type: application/json" -d \
+            "{\"data_url\":\"https://raw.githubusercontent.com/Mat-O-Lab/resources/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt2.TRA\",\"separator\":\"auto\",\"encoding\":\"auto\"}"

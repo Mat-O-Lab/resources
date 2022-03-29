@@ -14,4 +14,4 @@
 <https://purl.matolab.org/mseo/mid/InformationBearingEntity_11.09.2014_13:37:29> a ns2:InformationBearingEntity,
         ns1:NamedIndividual ;
     ns3:RO_0010002 <https://purl.matolab.org/mseo/mid/Day_11.09.2014_13:37:29> ;
-    ns2:has_datetime_value "2014-09-11T13:37:29"^^xsd:dateTime .
+    ns2:has_datetime_value "2014-09-11T13:37:29"^^xsd:dateTime . 

@@ -1,0 +1,7 @@
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+
+<https://raw.githubusercontent.com/Mat-O-Lab/resources/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt6-metadata.json/.%2FAktuelleProbe> ns1:0010002 "https://raw.githubusercontent.com/Mat-O-Lab/MSEO/main/methods/DIN_EN_ISO_527-3.drawio.ttl/SpecimenName" .
+
+<https://raw.githubusercontent.com/Mat-O-Lab/resources/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt6-metadata.json/.%2FProbenbreiteB0> ns1:0010002 "https://raw.githubusercontent.com/Mat-O-Lab/MSEO/main/methods/DIN_EN_ISO_527-3.drawio.ttl/SpecimenName" .
+
+<https://raw.githubusercontent.com/Mat-O-Lab/resources/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt6-metadata.json/.%2FProbendickeA0> ns1:0010002 "https://raw.githubusercontent.com/Mat-O-Lab/MSEO/main/methods/DIN_EN_ISO_527-3.drawio.ttl/SpecimenName" .

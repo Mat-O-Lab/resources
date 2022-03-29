@@ -20,8 +20,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: build csvtocsvw docker container
-        run: docker build --tag matolab:csvtocsvw https://github.com/Mat-O-Lab/CSVToCSVW
+        run: docker build --tag matolab:csvtocsvw https://raw.githubusercontent.com/Mat-O-Lab/CSVToCSVW/main/Dockerfile
 
       # run the container 
-      - name: run csvtocsvw container app
-        run: docker run matolab:csvtocsvw
+      - name: run csvtocsvw container app as demon
+        run: docker run -d -p 80:5000 matolab:csvtocsvw
+      # curl call to api endpoint
+      - name: example curl call to api endpoint
+        run: curl -X POST "http://localhost/api" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"data_url\":\"https://raw.githubusercontent.com/Mat-O-Lab/resources/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt2.TRA\",\"separator\":\"auto\",\"encoding\":\"auto\"}"

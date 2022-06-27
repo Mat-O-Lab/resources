@@ -11,7 +11,7 @@
     "url": "Zugversuch_eng_ETFE-Ref+Groesseneffekt2.TRA",
     "notes": [
         {
-            "@id": "./AktuelleProbe",
+            "@id": "./AktuelleProbe0",
             "label": "aktuelle Probe",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
@@ -24,7 +24,7 @@
             }
         },
         {
-            "@id": "./Einspannlaenge",
+            "@id": "./Einspannlaenge1",
             "label": "Einspannl\u00e4nge",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
@@ -32,8 +32,8 @@
                 "@type": "xsd:decimal"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/MillimeterMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfLength]"
+                "@id": "http://qudt.org/vocab/unit/MilliM",
+                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
             },
             "mseo:has_row_index": {
                 "@value": 1,
@@ -41,7 +41,7 @@
             }
         },
         {
-            "@id": "./Messlaenge",
+            "@id": "./Messlaenge2",
             "label": "Messl\u00e4nge",
             "@type": "cco:InformationLine",
             "cco:has_text_value": {
@@ -54,7 +54,7 @@
             }
         },
         {
-            "@id": "./ProbenbreiteB0",
+            "@id": "./ProbenbreiteB03",
             "label": "Probenbreite b0",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
@@ -62,8 +62,8 @@
                 "@type": "xsd:decimal"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/MillimeterMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfLength]"
+                "@id": "http://qudt.org/vocab/unit/MilliM",
+                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
             },
             "mseo:has_row_index": {
                 "@value": 3,
@@ -71,7 +71,7 @@
             }
         },
         {
-            "@id": "./ProbendickeA0",
+            "@id": "./ProbendickeA04",
             "label": "Probendicke a0",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
@@ -79,8 +79,8 @@
                 "@type": "xsd:decimal"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/MillimeterMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfLength]"
+                "@id": "http://qudt.org/vocab/unit/MilliM",
+                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
             },
             "mseo:has_row_index": {
                 "@value": 4,
@@ -88,7 +88,7 @@
             }
         },
         {
-            "@id": "./Pruefgeschwindigkeit",
+            "@id": "./Pruefgeschwindigkeit5",
             "label": "Pr\u00fcfgeschwindigkeit",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
@@ -96,8 +96,8 @@
                 "@type": "xsd:integer"
             },
             "cco:uses_measurement_unit": {
-                "@id": "https://purl.matolab.org/mseo/mid/MilliMeterPerMinuteMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfSpeed]"
+                "@id": "http://qudt.org/vocab/unit/MilliM-PER-MIN",
+                "@type": "http://qudt.org/schema/qudt/Unit"
             },
             "mseo:has_row_index": {
                 "@value": 5,
@@ -105,7 +105,7 @@
             }
         },
         {
-            "@id": "./Vorkraft",
+            "@id": "./Vorkraft6",
             "label": "Vorkraft",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
@@ -113,8 +113,8 @@
                 "@type": "xsd:decimal"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/NewtonMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfForce]"
+                "@id": "http://qudt.org/vocab/unit/N",
+                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
             },
             "mseo:has_row_index": {
                 "@value": 6,
@@ -122,7 +122,7 @@
             }
         },
         {
-            "@id": "./WegNachBruch",
+            "@id": "./WegNachBruch7",
             "label": "Weg nach Bruch",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
@@ -130,8 +130,8 @@
                 "@type": "xsd:integer"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/MillimeterMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfLength]"
+                "@id": "http://qudt.org/vocab/unit/MilliM",
+                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
             },
             "mseo:has_row_index": {
                 "@value": 7,
@@ -139,16 +139,16 @@
             }
         },
         {
-            "@id": "./EModul",
+            "@id": "./EModul8",
             "label": "E-Modul",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "1122.17",
                 "@type": "xsd:decimal"
             },
-            "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/PascalMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfPressure]"
+            "cco:has_text_value": {
+                "@value": "N/mm\u00b2",
+                "@type": "xsd:string"
             },
             "mseo:has_row_index": {
                 "@value": 8,
@@ -156,7 +156,7 @@
             }
         },
         {
-            "@id": "./DehnungBeiFmax",
+            "@id": "./DehnungBeiFmax9",
             "label": "Dehnung bei Fmax",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
@@ -164,8 +164,8 @@
                 "@type": "xsd:decimal"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://data.nasa.gov/qudt/owl/unit#Percent",
-                "@type": "[qudt.CountingUnit]"
+                "@id": "http://qudt.org/vocab/unit/PERCENT",
+                "@type": "http://qudt.org/schema/qudt/Unit"
             },
             "mseo:has_row_index": {
                 "@value": 9,
@@ -173,7 +173,7 @@
             }
         },
         {
-            "@id": "./DehnungBeiBruch",
+            "@id": "./DehnungBeiBruch10",
             "label": "Dehnung bei Bruch",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
@@ -181,8 +181,8 @@
                 "@type": "xsd:decimal"
             },
             "cco:uses_measurement_unit": {
-                "@id": "http://data.nasa.gov/qudt/owl/unit#Percent",
-                "@type": "[qudt.CountingUnit]"
+                "@id": "http://qudt.org/vocab/unit/PERCENT",
+                "@type": "http://qudt.org/schema/qudt/Unit"
             },
             "mseo:has_row_index": {
                 "@value": 10,
@@ -190,7 +190,7 @@
             }
         },
         {
-            "@id": "./ObereStreckgrenze",
+            "@id": "./ObereStreckgrenze11",
             "label": "obere Streckgrenze",
             "@type": "cco:InformationLine",
             "cco:has_text_value": {
@@ -203,16 +203,16 @@
             }
         },
         {
-            "@id": "./Kraftmaximum",
+            "@id": "./Kraftmaximum12",
             "label": "Kraftmaximum",
             "@type": "cco:InformationLine",
             "cco:has_decimal_value": {
                 "@value": "38.7942",
                 "@type": "xsd:decimal"
             },
-            "cco:uses_measurement_unit": {
-                "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/PascalMeasurementUnit",
-                "@type": "[CommonCoreOntologies.MeasurementUnitOfPressure]"
+            "cco:has_text_value": {
+                "@value": "N/mm\u00b2",
+                "@type": "xsd:string"
             },
             "mseo:has_row_index": {
                 "@value": 12,
@@ -220,7 +220,7 @@
             }
         },
         {
-            "@id": "./Bruchkraft",
+            "@id": "./Bruchkraft13",
             "label": "Bruchkraft",
             "@type": "cco:InformationLine",
             "cco:has_text_value": {
@@ -233,7 +233,7 @@
             }
         },
         {
-            "@id": "./GeschwindigkeitEModul",
+            "@id": "./GeschwindigkeitEModul14",
             "label": "Geschwindigkeit E-Modul",
             "@type": "cco:InformationLine",
             "cco:has_integer_value": {
@@ -250,7 +250,7 @@
             }
         },
         {
-            "@id": "./Datum",
+            "@id": "./Datum15",
             "label": "Datum",
             "@type": "cco:InformationLine",
             "cco:has_datetime_value": {
@@ -276,8 +276,8 @@
                 "@id": "./Pruefzeit",
                 "@type": "Column",
                 "cco:uses_measurement_unit": {
-                    "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/SecondMeasurementUnit",
-                    "@type": "[CommonCoreOntologies.MeasurementUnitOfTime]"
+                    "@id": "http://qudt.org/vocab/unit/SEC",
+                    "@type": "http://qudt.org/schema/qudt/Unit"
                 }
             },
             {
@@ -285,8 +285,8 @@
                 "@id": "./Standardweg",
                 "@type": "Column",
                 "cco:uses_measurement_unit": {
-                    "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/MillimeterMeasurementUnit",
-                    "@type": "[CommonCoreOntologies.MeasurementUnitOfLength]"
+                    "@id": "http://qudt.org/vocab/unit/MilliM",
+                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
                 }
             },
             {
@@ -294,8 +294,8 @@
                 "@id": "./Standardkraft",
                 "@type": "Column",
                 "cco:uses_measurement_unit": {
-                    "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/NewtonMeasurementUnit",
-                    "@type": "[CommonCoreOntologies.MeasurementUnitOfForce]"
+                    "@id": "http://qudt.org/vocab/unit/N",
+                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
                 }
             },
             {
@@ -303,8 +303,8 @@
                 "@id": "./Dehnung",
                 "@type": "Column",
                 "cco:uses_measurement_unit": {
-                    "@id": "http://data.nasa.gov/qudt/owl/unit#Percent",
-                    "@type": "[qudt.CountingUnit]"
+                    "@id": "http://qudt.org/vocab/unit/PERCENT",
+                    "@type": "http://qudt.org/schema/qudt/Unit"
                 }
             },
             {
@@ -312,8 +312,8 @@
                 "@id": "./TraverseAbs",
                 "@type": "Column",
                 "cco:uses_measurement_unit": {
-                    "@id": "http://www.ontologyrepository.com/CommonCoreOntologies/MillimeterMeasurementUnit",
-                    "@type": "[CommonCoreOntologies.MeasurementUnitOfLength]"
+                    "@id": "http://qudt.org/vocab/unit/MilliM",
+                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
                 }
             }
         ]

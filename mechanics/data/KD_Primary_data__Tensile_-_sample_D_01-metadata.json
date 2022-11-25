@@ -1,0 +1,703 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "oa": "http://www.w3.org/ns/oa#",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "qudt": "http://qudt.org/schema/qudt/"
+        }
+    ],
+    "@id": "",
+    "url": "KD_Primary_data__Tensile_-_sample_D_01.lis",
+    "notes": [
+        {
+            "@id": "Versuchsbezeichnung3",
+            "label": "Versuchsbezeichnung",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 3,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "ZUG-Versuch"
+                }
+            ]
+        },
+        {
+            "@id": "VersuchsDatum4",
+            "label": "Versuchs-Datum",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 4,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": "2022-10-08T00:00:00",
+                        "@type": "xsd:dateTime"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Projekt5",
+            "label": "Projekt",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 5,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "VH5204"
+                }
+            ]
+        },
+        {
+            "@id": "Werkstoff6",
+            "label": "Werkstoff",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 6,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "CuSn12"
+                }
+            ]
+        },
+        {
+            "@id": "Bearbeiter7",
+            "label": "Bearbeiter",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 7,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "Uhlemann"
+                }
+            ]
+        },
+        {
+            "@id": "Pruefmaschine8",
+            "label": "Pr\u00fcfmaschine",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 8,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "M33"
+                }
+            ]
+        },
+        {
+            "@id": "Probenbezeichnung9",
+            "label": "Probenbezeichnung",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 9,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "D_01"
+                }
+            ]
+        },
+        {
+            "@id": "Probenform10",
+            "label": "Probenform",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 10,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "ZUG 005.004"
+                }
+            ]
+        },
+        {
+            "@id": "Probenquerschnitt11",
+            "label": "Probenquerschnitt",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 11,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MilliM2",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 19.64,
+                        "@type": "xsd:decimal"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Prueftemperatur12",
+            "label": "Pr\u00fcftemperatur",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 12,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/DEG_C",
+                        "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 26,
+                        "@type": "xsd:integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Pruefgeschwindigkeit113",
+            "label": "Pr\u00fcfgeschwindigkeit 1",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 13,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "%/s"
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 0.025,
+                        "@type": "xsd:decimal"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Umschaltpunkt14",
+            "label": "Umschaltpunkt",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 14,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/PERCENT",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/NUM",
+                        "@type": "http://qudt.org/schema/qudt/CountingUnit"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Pruefgeschwindigkeit215",
+            "label": "Pr\u00fcfgeschwindigkeit 2",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 15,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MilliM-PER-MIN",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "xsd:integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Anfangsmesslaenge16",
+            "label": "Anfangsmessl\u00e4nge",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 16,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MilliM",
+                        "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 25,
+                        "@type": "xsd:integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "EModul17",
+            "label": "E-Modul",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 17,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "GPa"
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 58.8,
+                        "@type": "xsd:decimal"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp00118",
+            "label": "Dehngrenze (Rp0,01)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 18,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp00219",
+            "label": "Dehngrenze (Rp0,02)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 19,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp00520",
+            "label": "Dehngrenze (Rp0,05)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 20,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp0121",
+            "label": "Dehngrenze (Rp0,1)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 21,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp0222",
+            "label": "Dehngrenze (Rp0,2)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 22,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 119,
+                        "@type": "xsd:integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp0523",
+            "label": "Dehngrenze (Rp0,5)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 23,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp124",
+            "label": "Dehngrenze (Rp1)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 24,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp225",
+            "label": "Dehngrenze (Rp2)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 25,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "DehngrenzeRp526",
+            "label": "Dehngrenze (Rp5)",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 26,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "ObereStreckgrenze27",
+            "label": "Obere Streckgrenze",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 27,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "UntereStreckgrenze28",
+            "label": "Untere Streckgrenze",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 28,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "Zugfestigkeit29",
+            "label": "Zugfestigkeit",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 29,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/MegaPA",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 314,
+                        "@type": "xsd:integer"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Gleichmassdehnung30",
+            "label": "Gleichma\u00dfdehnung",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 30,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/PERCENT",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "@purpose": "oa:tagging",
+                    "@value": "-"
+                }
+            ]
+        },
+        {
+            "@id": "Bruchdehnung31",
+            "label": "Bruchdehnung",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 31,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/PERCENT",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 33.5,
+                        "@type": "xsd:decimal"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Brucheinschnuerung32",
+            "label": "Brucheinschn\u00fcrung",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 32,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "qudt:unit": {
+                        "@id": "http://qudt.org/vocab/unit/PERCENT",
+                        "@type": "http://qudt.org/schema/qudt/Unit"
+                    }
+                },
+                {
+                    "@type": "qudt:Quantity",
+                    "qudt:value": {
+                        "@value": 77,
+                        "@type": "xsd:integer"
+                    }
+                }
+            ]
+        }
+    ],
+    "dialect": {
+        "delimiter": "\t",
+        "skipRows": 39,
+        "headerRowCount": 2,
+        "encoding": "ISO-8859-1"
+    },
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "Zeit",
+                "@id": "Zeit",
+                "@type": "Column",
+                "qudt:unit": {
+                    "@id": "http://qudt.org/vocab/unit/SEC",
+                    "@type": "http://qudt.org/schema/qudt/Unit"
+                }
+            },
+            {
+                "titles": "Weg",
+                "@id": "Weg",
+                "@type": "Column",
+                "qudt:unit": {
+                    "@id": "http://qudt.org/vocab/unit/MilliM",
+                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                }
+            },
+            {
+                "titles": "Kraft",
+                "@id": "Kraft",
+                "@type": "Column",
+                "qudt:unit": {
+                    "@id": "http://qudt.org/vocab/unit/KiloN",
+                    "@type": "http://qudt.org/schema/qudt/Unit"
+                }
+            },
+            {
+                "titles": "Dehnung",
+                "@id": "Dehnung",
+                "@type": "Column",
+                "qudt:unit": {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT",
+                    "@type": "http://qudt.org/schema/qudt/Unit"
+                }
+            },
+            {
+                "titles": "Spannung",
+                "@id": "Spannung",
+                "@type": "Column",
+                "qudt:unit": {
+                    "@id": "http://qudt.org/vocab/unit/MegaPA",
+                    "@type": "http://qudt.org/schema/qudt/Unit"
+                }
+            }
+        ]
+    }
+}

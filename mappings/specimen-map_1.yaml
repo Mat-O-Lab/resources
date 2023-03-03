@@ -25,7 +25,7 @@ mappings:
       function: equal
       parameters:
       - [str1, $(label), s]
-      - [str2, "Probenbezeichnung :", o]
+      - [str2, '"Probenbezeichnung :"', o]
     po:
     - ['obo:RO_0010002', 'method:YoungsModulusSpecimenName~iri']
   YoungsModulusExperimentDate:
@@ -35,7 +35,7 @@ mappings:
       function: equal
       parameters:
       - [str1, $(label)]
-      - [str2, Datum :]
+      - [str2, 'Datum :']
     po:
     - ['obo:RO_0010002', 'method:YoungsModulusExperimentDate~iri']
   YoungsModulusDiameterMeasurementInformation:

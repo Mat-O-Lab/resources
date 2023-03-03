@@ -1,6 +1,5 @@
 prefixes: {data: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/specimen-metadata.json/',
-  method: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/EM.ttl/',
-  obo: 'http://purl.obolibrary.org/obo/'}
+  method: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/EM.ttl/', obo: 'http://purl.obolibrary.org/obo/'}
 base: http://purl.matolab.org/mseo/mappings/
 sources:
   data_columns: {access: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/specimen-metadata.json',
@@ -24,8 +23,8 @@ mappings:
     condition:
       function: equal
       parameters:
-      - [str1, $(label), s]
-      - [str2, "Probenbezeichnung :", o]
+      - [str1, $(label)]
+      - [str2, 'Probenbezeichnung :']
     po:
     - ['obo:RO_0010002', 'method:YoungsModulusSpecimenName~iri']
   YoungsModulusExperimentDate:
@@ -35,7 +34,7 @@ mappings:
       function: equal
       parameters:
       - [str1, $(label)]
-      - [str2, 'Datum :']
+      - [str2, "Datum :"]
     po:
     - ['obo:RO_0010002', 'method:YoungsModulusExperimentDate~iri']
   YoungsModulusDiameterMeasurementInformation:

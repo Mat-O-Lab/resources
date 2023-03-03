@@ -1,5 +1,8 @@
-prefixes: {data: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/specimen-metadata.json/',
-  method: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/EM.ttl/', obo: 'http://purl.obolibrary.org/obo/'}
+prefixes: {
+  data: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/specimen-metadata.json/',
+  method: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/EM.ttl/',
+  obo: 'http://purl.obolibrary.org/obo/'
+  }
 base: http://purl.matolab.org/mseo/mappings/
 sources:
   data_columns: {access: 'https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/specimen-metadata.json',

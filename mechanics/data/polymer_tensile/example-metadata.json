@@ -362,7 +362,9 @@
         "suppressOutput": true
       },
       {
-        "titles": "Prüfzeit",
+        "titles": [
+          "Prüfzeit"
+        ],
         "@id": "Pruefzeit",
         "@type": "Column",
         "name": "Pruefzeit",
@@ -373,7 +375,9 @@
         }
       },
       {
-        "titles": "Standardweg",
+        "titles": [
+          "Standardweg"
+        ],
         "@id": "Standardweg",
         "@type": "Column",
         "name": "Standardweg",
@@ -384,7 +388,9 @@
         }
       },
       {
-        "titles": "Standardkraft",
+        "titles": [
+          "Standardkraft"
+        ],
         "@id": "Standardkraft",
         "@type": "Column",
         "name": "Standardkraft",
@@ -395,7 +401,9 @@
         }
       },
       {
-        "titles": "Dehnung",
+        "titles": [
+          "Dehnung"
+        ],
         "@id": "Dehnung",
         "@type": "Column",
         "name": "Dehnung",
@@ -406,7 +414,9 @@
         }
       },
       {
-        "titles": "Traverse abs.",
+        "titles": [
+          "Traverse abs."
+        ],
         "@id": "TraverseAbs",
         "@type": "Column",
         "name": "TraverseAbs",

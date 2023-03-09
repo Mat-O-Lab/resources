@@ -347,7 +347,7 @@
     "delimiter": "\t",
     "skipRows": 16,
     "headerRowCount": 2,
-    "encoding": "ISO-8859-1"
+    "encoding": "latin-1"
   },
   "tableSchema": {
     "columns": [
@@ -363,7 +363,8 @@
       },
       {
         "titles": [
-          "Prüfzeit"
+          "Prüfzeit",
+          "Pruefzeit"
         ],
         "@id": "Pruefzeit",
         "@type": "Column",
@@ -376,6 +377,7 @@
       },
       {
         "titles": [
+          "Standardweg",
           "Standardweg"
         ],
         "@id": "Standardweg",
@@ -389,6 +391,7 @@
       },
       {
         "titles": [
+          "Standardkraft",
           "Standardkraft"
         ],
         "@id": "Standardkraft",
@@ -402,6 +405,7 @@
       },
       {
         "titles": [
+          "Dehnung",
           "Dehnung"
         ],
         "@id": "Dehnung",
@@ -415,7 +419,8 @@
       },
       {
         "titles": [
-          "Traverse abs."
+          "Traverse abs.",
+          "TraverseAbs"
         ],
         "@id": "TraverseAbs",
         "@type": "Column",

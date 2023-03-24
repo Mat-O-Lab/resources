@@ -1,321 +1,489 @@
 {
-    "@context": [
-        "http://www.w3.org/ns/csvw",
-        {
-            "cco": "http://www.ontologyrepository.com/CommonCoreOntologies/",
-            "mseo": "https://purl.matolab.org/mseo/mid/",
-            "label": "http://www.w3.org/2000/01/rdf-schema#label",
-            "xsd": "http://www.w3.org/2001/XMLSchema#"
-        }
-    ],
-    "url": "Zugversuch_eng_ETFE-Ref+Groesseneffekt2.TRA",
-    "notes": [
-        {
-            "@id": "./AktuelleProbe0",
-            "label": "aktuelle Probe",
-            "@type": "cco:InformationLine",
-            "cco:has_integer_value": {
-                "@value": "12",
-                "@type": "xsd:integer"
-            },
-            "mseo:has_row_index": {
-                "@value": 0,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Einspannlaenge1",
-            "label": "Einspannl\u00e4nge",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "832.756",
-                "@type": "xsd:decimal"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/MilliM",
-                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-            },
-            "mseo:has_row_index": {
-                "@value": 1,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Messlaenge2",
-            "label": "Messl\u00e4nge",
-            "@type": "cco:InformationLine",
-            "cco:has_text_value": {
-                "@value": "nicht bekannt",
-                "@type": "xsd:string"
-            },
-            "mseo:has_row_index": {
-                "@value": 2,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./ProbenbreiteB03",
-            "label": "Probenbreite b0",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "11.8",
-                "@type": "xsd:decimal"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/MilliM",
-                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-            },
-            "mseo:has_row_index": {
-                "@value": 3,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./ProbendickeA04",
-            "label": "Probendicke a0",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "0.19",
-                "@type": "xsd:decimal"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/MilliM",
-                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-            },
-            "mseo:has_row_index": {
-                "@value": 4,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Pruefgeschwindigkeit5",
-            "label": "Pr\u00fcfgeschwindigkeit",
-            "@type": "cco:InformationLine",
-            "cco:has_integer_value": {
-                "@value": "150",
-                "@type": "xsd:integer"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/MilliM-PER-MIN",
-                "@type": "http://qudt.org/schema/qudt/Unit"
-            },
-            "mseo:has_row_index": {
-                "@value": 5,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Vorkraft6",
-            "label": "Vorkraft",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "0.2",
-                "@type": "xsd:decimal"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/N",
-                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-            },
-            "mseo:has_row_index": {
-                "@value": 6,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./WegNachBruch7",
-            "label": "Weg nach Bruch",
-            "@type": "cco:InformationLine",
-            "cco:has_integer_value": {
-                "@value": "5",
-                "@type": "xsd:integer"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/MilliM",
-                "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-            },
-            "mseo:has_row_index": {
-                "@value": 7,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./EModul8",
-            "label": "E-Modul",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "1122.17",
-                "@type": "xsd:decimal"
-            },
-            "cco:has_text_value": {
-                "@value": "N/mm\u00b2",
-                "@type": "xsd:string"
-            },
-            "mseo:has_row_index": {
-                "@value": 8,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./DehnungBeiFmax9",
-            "label": "Dehnung bei Fmax",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "329.978",
-                "@type": "xsd:decimal"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/PERCENT",
-                "@type": "http://qudt.org/schema/qudt/Unit"
-            },
-            "mseo:has_row_index": {
-                "@value": 9,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./DehnungBeiBruch10",
-            "label": "Dehnung bei Bruch",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "336.912",
-                "@type": "xsd:decimal"
-            },
-            "cco:uses_measurement_unit": {
-                "@id": "http://qudt.org/vocab/unit/PERCENT",
-                "@type": "http://qudt.org/schema/qudt/Unit"
-            },
-            "mseo:has_row_index": {
-                "@value": 10,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./ObereStreckgrenze11",
-            "label": "obere Streckgrenze",
-            "@type": "cco:InformationLine",
-            "cco:has_text_value": {
-                "@value": "nicht bekannt",
-                "@type": "xsd:string"
-            },
-            "mseo:has_row_index": {
-                "@value": 11,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Kraftmaximum12",
-            "label": "Kraftmaximum",
-            "@type": "cco:InformationLine",
-            "cco:has_decimal_value": {
-                "@value": "38.7942",
-                "@type": "xsd:decimal"
-            },
-            "cco:has_text_value": {
-                "@value": "N/mm\u00b2",
-                "@type": "xsd:string"
-            },
-            "mseo:has_row_index": {
-                "@value": 12,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Bruchkraft13",
-            "label": "Bruchkraft",
-            "@type": "cco:InformationLine",
-            "cco:has_text_value": {
-                "@value": "nicht bekannt",
-                "@type": "xsd:string"
-            },
-            "mseo:has_row_index": {
-                "@value": 13,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./GeschwindigkeitEModul14",
-            "label": "Geschwindigkeit E-Modul",
-            "@type": "cco:InformationLine",
-            "cco:has_integer_value": {
-                "@value": "1",
-                "@type": "xsd:integer"
-            },
-            "cco:has_text_value": {
-                "@value": "%L0/min",
-                "@type": "xsd:string"
-            },
-            "mseo:has_row_index": {
-                "@value": 14,
-                "@type": "xsd:integer"
-            }
-        },
-        {
-            "@id": "./Datum15",
-            "label": "Datum",
-            "@type": "cco:InformationLine",
-            "cco:has_datetime_value": {
-                "@value": "2008-02-20 00:00:00",
-                "@type": "xsd:dateTime"
-            },
-            "mseo:has_row_index": {
-                "@value": 15,
-                "@type": "xsd:integer"
-            }
-        }
-    ],
-    "dialect": {
-        "delimiter": "\t",
-        "skipRows": 16,
-        "headerRowCount": 2,
-        "encoding": "ISO-8859-1"
-    },
-    "tableSchema": {
-        "columns": [
-            {
-                "titles": "Pr\u00fcfzeit",
-                "@id": "./Pruefzeit",
-                "@type": "Column",
-                "cco:uses_measurement_unit": {
-                    "@id": "http://qudt.org/vocab/unit/SEC",
-                    "@type": "http://qudt.org/schema/qudt/Unit"
-                }
-            },
-            {
-                "titles": "Standardweg",
-                "@id": "./Standardweg",
-                "@type": "Column",
-                "cco:uses_measurement_unit": {
-                    "@id": "http://qudt.org/vocab/unit/MilliM",
-                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-                }
-            },
-            {
-                "titles": "Standardkraft",
-                "@id": "./Standardkraft",
-                "@type": "Column",
-                "cco:uses_measurement_unit": {
-                    "@id": "http://qudt.org/vocab/unit/N",
-                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-                }
-            },
-            {
-                "titles": "Dehnung",
-                "@id": "./Dehnung",
-                "@type": "Column",
-                "cco:uses_measurement_unit": {
-                    "@id": "http://qudt.org/vocab/unit/PERCENT",
-                    "@type": "http://qudt.org/schema/qudt/Unit"
-                }
-            },
-            {
-                "titles": "Traverse abs.",
-                "@id": "./TraverseAbs",
-                "@type": "Column",
-                "cco:uses_measurement_unit": {
-                    "@id": "http://qudt.org/vocab/unit/MilliM",
-                    "@type": "http://qudt.org/schema/qudt/DerivedUnit"
-                }
-            }
-        ]
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "oa": "http://www.w3.org/ns/oa#",
+      "label": "http://www.w3.org/2000/01/rdf-schema#label",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "qudt": "http://qudt.org/schema/qudt/",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "prov": "http://www.w3.org/ns/prov#"
     }
+  ],
+  "@id": "",
+  "url": "https://github.com/Mat-O-Lab/resources/raw/main/mechanics/data/polymer_tensile/Zugversuch_eng_ETFE-Ref%2BGroesseneffekt2.TRA",
+  "notes": [
+    {
+      "@id": "AktuelleProbe0",
+      "label": "aktuelle Probe",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 0,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 12,
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Einspannlaenge1",
+      "label": "Einspannlänge",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 1,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 832.756,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MilliM",
+            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Messlaenge2",
+      "label": "Messlänge",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 2,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "nicht bekannt"
+        }
+      ]
+    },
+    {
+      "@id": "ProbenbreiteB03",
+      "label": "Probenbreite b0",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 3,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 11.8,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MilliM",
+            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "ProbendickeA04",
+      "label": "Probendicke a0",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 4,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 0.19,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MilliM",
+            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Pruefgeschwindigkeit5",
+      "label": "Prüfgeschwindigkeit",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 5,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 150,
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MilliM-PER-MIN",
+            "@type": "http://qudt.org/schema/qudt/Unit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Vorkraft6",
+      "label": "Vorkraft",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 6,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 0.2,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/N",
+            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "WegNachBruch7",
+      "label": "Weg nach Bruch",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 7,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 5,
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MilliM",
+            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "EModul8",
+      "label": "E-Modul",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 8,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 1122.17,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MegaPA",
+            "@type": "http://qudt.org/schema/qudt/Unit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "DehnungBeiFmax9",
+      "label": "Dehnung bei Fmax",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 9,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 329.978,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/PERCENT",
+            "@type": "http://qudt.org/schema/qudt/Unit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "DehnungBeiBruch10",
+      "label": "Dehnung bei Bruch",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 10,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 336.912,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/PERCENT",
+            "@type": "http://qudt.org/schema/qudt/Unit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "ObereStreckgrenze11",
+      "label": "obere Streckgrenze",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 11,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "nicht bekannt"
+        }
+      ]
+    },
+    {
+      "@id": "Kraftmaximum12",
+      "label": "Kraftmaximum",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 12,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 38.7942,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/MegaPA",
+            "@type": "http://qudt.org/schema/qudt/Unit"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Bruchkraft13",
+      "label": "Bruchkraft",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 13,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "nicht bekannt"
+        }
+      ]
+    },
+    {
+      "@id": "GeschwindigkeitEModul14",
+      "label": "Geschwindigkeit E-Modul",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 14,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 1,
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+          },
+          "qudt:unit": {
+            "@id": "http://qudt.org/vocab/unit/NUM",
+            "@type": "http://qudt.org/schema/qudt/CountingUnit"
+          }
+        },
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "%L0/min"
+        }
+      ]
+    },
+    {
+      "@id": "Datum15",
+      "label": "Datum",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 15,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": "2008-02-20T00:00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ]
+    }
+  ],
+  "dialect": {
+    "delimiter": "\t",
+    "skipRows": 16,
+    "headerRowCount": 2,
+    "encoding": "latin-1"
+  },
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "GID",
+        "titles": [
+          "GID",
+          "Generic Identifier"
+        ],
+        "datatype": "string",
+        "required": true,
+        "suppressOutput": true,
+        "@type": "Column"
+      },
+      {
+        "titles": [
+          "Prüfzeit",
+          "s",
+          "Pruefzeit"
+        ],
+        "@id": "Pruefzeit",
+        "name": "Pruefzeit",
+        "qudt:unit": {
+          "@id": "http://qudt.org/vocab/unit/SEC",
+          "@type": "http://qudt.org/schema/qudt/Unit"
+        },
+        "@type": [
+          "Column",
+          "qudt:QuantityValue"
+        ],
+        "format": {
+          "@id": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      },
+      {
+        "titles": [
+          "Standardweg",
+          "mm",
+          "Standardweg"
+        ],
+        "@id": "Standardweg",
+        "name": "Standardweg",
+        "qudt:unit": {
+          "@id": "http://qudt.org/vocab/unit/MilliM",
+          "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+        },
+        "@type": [
+          "Column",
+          "qudt:QuantityValue"
+        ],
+        "format": {
+          "@id": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      },
+      {
+        "titles": [
+          "Standardkraft",
+          "N",
+          "Standardkraft"
+        ],
+        "@id": "Standardkraft",
+        "name": "Standardkraft",
+        "qudt:unit": {
+          "@id": "http://qudt.org/vocab/unit/N",
+          "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+        },
+        "@type": [
+          "Column",
+          "qudt:QuantityValue"
+        ],
+        "format": {
+          "@id": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      },
+      {
+        "titles": [
+          "Dehnung",
+          "%",
+          "Dehnung"
+        ],
+        "@id": "Dehnung",
+        "name": "Dehnung",
+        "qudt:unit": {
+          "@id": "http://qudt.org/vocab/unit/PERCENT",
+          "@type": "http://qudt.org/schema/qudt/Unit"
+        },
+        "@type": [
+          "Column",
+          "qudt:QuantityValue"
+        ],
+        "format": {
+          "@id": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      },
+      {
+        "titles": [
+          "Traverse abs.",
+          "mm",
+          "TraverseAbs"
+        ],
+        "@id": "TraverseAbs",
+        "name": "TraverseAbs",
+        "qudt:unit": {
+          "@id": "http://qudt.org/vocab/unit/MilliM",
+          "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+        },
+        "@type": [
+          "Column",
+          "qudt:QuantityValue"
+        ],
+        "format": {
+          "@id": "http://www.w3.org/2001/XMLSchema#double"
+        }
+      }
+    ],
+    "primaryKey": "GID",
+    "aboutUrl": "#gid-{GID}"
+  },
+  "prov:wasGeneratedBy": {
+    "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotation",
+    "@type": "prov:Activity",
+    "prov:wasAssociatedWith": {
+      "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.1.8",
+      "rdfs:label": "CSVtoCSVWv1.1.8",
+      "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
+      "@type": "prov:SoftwareAgent"
+    }
+  },
+  "prov:generatedAtTime": {
+    "@value": "2023-03-24T12:37:30.916959",
+    "@type": "xsd:dateTime"
+  }
 }

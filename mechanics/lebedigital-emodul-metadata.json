@@ -1,0 +1,224 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "oa": "http://www.w3.org/ns/oa#",
+      "label": "http://www.w3.org/2000/01/rdf-schema#label",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "qudt": "http://qudt.org/schema/qudt/",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "prov": "http://www.w3.org/ns/prov#"
+    }
+  ],
+  "@id": "",
+  "url": "https://gitlab.com/AidaZt/evaluate-the-tools/-/raw/main/1specimen.dat.csv",
+  "notes": [
+    {
+      "@id": "Mts793MptDeu120",
+      "label": "MTS793|MPT|DEU|1|2|,|.|",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 0,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "|49|1|1|A"
+        }
+      ]
+    },
+    {
+      "@id": "BedienerInformationZeit2",
+      "label": "Bediener Information\t\t\t\t\t\tZeit",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 2,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": "2014-01-09T13:00:33.796875",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        },
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 25,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          }
+        },
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 39,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Datum3",
+      "label": "Datum",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 3,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": "2014-01-09T00:00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Pruefer4",
+      "label": "Prüfer",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 4,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "Kh"
+        }
+      ]
+    },
+    {
+      "@id": "Probenbezeichnung5",
+      "label": "Probenbezeichnung",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 5,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "BA-Losert E-Modul 28d v. 04.08.14 Probe 4"
+        }
+      ]
+    },
+    {
+      "@id": "Masse7",
+      "label": "Masse",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 7,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 5342,
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Durchmesser8",
+      "label": "Durchmesser",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 8,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 98.6,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "Laenge9",
+      "label": "Länge",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 9,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 300.3,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "DatenerfassungZeit12",
+      "label": "Datenerfassung\t\t\t\t\t\tZeit",
+      "@type": "oa:Annotation",
+      "rownum": {
+        "@value": 12,
+        "@type": "xsd:integer"
+      },
+      "oa:hasBody": [
+        {
+          "@type": "oa:TextualBody",
+          "oa:purpose": "oa:tagging",
+          "oa:format": "text/plain",
+          "oa:value": "320,02344\ts\t01.09.2014 13"
+        },
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 30,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          }
+        },
+        {
+          "@type": "qudt:QuantityValue",
+          "qudt:value": {
+            "@value": 25,
+            "@type": "http://www.w3.org/2001/XMLSchema#double"
+          }
+        }
+      ]
+    }
+  ],
+  "dialect": {
+    "delimiter": "\t",
+    "skipRows": 589,
+    "headerRowCount": 0,
+    "encoding": "latin-1"
+  },
+  "tableSchema": {},
+  "prov:wasGeneratedBy": {
+    "@id": "https://csvtocsvw.matolab.org/api/annotation",
+    "@type": "prov:Activity",
+    "prov:wasAssociatedWith": {
+      "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.1.8",
+      "rdfs:label": "CSVtoCSVWv1.1.8",
+      "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
+      "@type": "prov:SoftwareAgent"
+    }
+  },
+  "prov:generatedAtTime": {
+    "@value": "2023-04-05T08:06:51.523403",
+    "@type": "xsd:dateTime"
+  }
+}

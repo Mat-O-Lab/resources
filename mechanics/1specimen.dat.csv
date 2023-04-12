@@ -2,15 +2,14 @@ MTS793|MPT|DEU|1|2|,|.|:|49|1|1|A
 
 Bediener Information						Zeit:	33,796875	s	01.09.2014 13:25:39
 Datum : 	01.09.2014
-Prüfer : 	Kh
+PrÃ¼fer : 	Kh
 Probenbezeichnung :  	BA-Losert E-Modul 28d v. 04.08.14 Probe 4
 Bemerkungen	Kraftgeregelt 3,9 kN/s
 Masse :	5342
 Durchmesser :	98,6
-Länge :	300,3
+LÃ¤nge :	300,3
 Bediener Information Ende
 
-Datenerfassung						Zeit:	320,02344	s	01.09.2014 13:30:25
 Datum	Laufzeit	Ch 1 Kraft Sollwert	Ch 1 Kraft	Ch 1 Weg	1944 B	1281068	2157
 d	s	kN	kN	mm	mm	mm	mm
 41883	34,306641	-1	-1,0232348	-5,6224585	0,085229494	0,037092578	-0,79244101

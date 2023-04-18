@@ -1,0 +1,406 @@
+{
+  "20230321140018612-192": {
+    "@id": 0,
+    "@type": "as.dto.sample.Sample",
+    "code": "EMODUL145",
+    "frozen": false,
+    "frozenForComponents": false,
+    "frozenForChildren": false,
+    "frozenForParents": false,
+    "frozenForDataSets": false,
+    "registrationDate": 1679407218612,
+    "modificationDate": 1679407218612,
+    "experiment": {
+      "@id": 113,
+      "@type": "as.dto.experiment.Experiment",
+      "fetchOptions": {
+        "@id": 114,
+        "@type": "as.dto.experiment.fetchoptions.ExperimentFetchOptions",
+        "count": null,
+        "from": null,
+        "cacheMode": "NO_CACHE",
+        "type": null,
+        "project": null,
+        "dataSets": null,
+        "samples": null,
+        "history": null,
+        "properties": null,
+        "materialProperties": null,
+        "sampleProperties": null,
+        "tags": null,
+        "registrator": null,
+        "modifier": null,
+        "attachments": null,
+        "sort": null,
+        "sortBy": null
+      },
+      "permId": {
+        "@id": 115,
+        "permId": "20230321130335504-170",
+        "@type": "as.dto.experiment.id.ExperimentPermId"
+      },
+      "identifier": {
+        "@id": 116,
+        "identifier": "/EMODUL/LEBEDIGITAL/LEBEDIGITAL_EMODUL_COLLECTION",
+        "@type": "as.dto.experiment.id.ExperimentIdentifier"
+      },
+      "code": "LEBEDIGITAL_EMODUL_COLLECTION",
+      "frozen": false,
+      "frozenForDataSets": false,
+      "frozenForSamples": false,
+      "registrationDate": 1679403815504,
+      "modificationDate": 1679407353089,
+      "type": null,
+      "project": null,
+      "dataSets": null,
+      "samples": null,
+      "history": null,
+      "properties": null,
+      "materialProperties": null,
+      "sampleProperties": null,
+      "tags": null,
+      "registrator": null,
+      "modifier": null,
+      "attachments": null
+    },
+    "properties": {
+      "EXPERIMENTAL_STEP_EMODUL.WEIGHT_UNIT": "g",
+      "EXPERIMENTAL_STEP_EMODUL.LENGTH": "300.3",
+      "TESTER_NAME": "Kh",
+      "EXPERIMENTAL_STEP_EMODUL.EXPERIMENTNAME": "BA-Losert MI E-Modul 28d v. 04.08.14 Probe 4",
+      "$NAME": "BA-Losert MI E-Modul 28d v. 04.08.14 Probe 4",
+      "EXPERIMENTAL_STEP_EMODUL.WEIGHT": "5342.0",
+      "EXPERIMENTAL_STEP_EMODUL.SOFTWARE_SPECIFICATION": "MTS793|MPT|DEU|1|2|,|.|:|49|1|1|A",
+      "EXPERIMENTAL_STEP_EMODUL.DIAMETER": "98.6",
+      "EXPERIMENTAL_STEP_EMODUL.OPERATOR_TIMESTAMP": "13:25:39",
+      "EXPERIMENTAL_STEP_EMODUL.MIX_FILE": "2014_08_05 Rezeptur_MI.xlsx",
+      "EXPERIMENTAL_STEP_EMODUL.SPECIMEN_NAME": "BA-Losert E-Modul 28d v. 04.08.14 Probe 4",
+      "OPERATOR_DATE": "2014-01-09 00:00:00 +0000",
+      "EXPERIMENTAL_STEP_EMODUL.REMARK": "Kraftgeregelt 3,9 kN/s",
+      "EXPERIMENTAL_STEP_EMODUL.LENGTH_UNIT": "mm"
+    },
+    "children": [],
+    "childrenRelationships": {},
+    "container": null,
+    "components": null,
+    "dataSets": [],
+    "history": [
+      {
+        "@id": 2532,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2533,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "$NAME",
+        "propertyValue": "BA-Losert MI E-Modul 28d v. 04.08.14 Probe 4"
+      },
+      {
+        "@id": 2534,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2535,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.DIAMETER",
+        "propertyValue": "98.6"
+      },
+      {
+        "@id": 2536,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2537,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.EXPERIMENTNAME",
+        "propertyValue": "BA-Losert MI E-Modul 28d v. 04.08.14 Probe 4"
+      },
+      {
+        "@id": 2538,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2539,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.LENGTH",
+        "propertyValue": "300.3"
+      },
+      {
+        "@id": 2540,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2541,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.LENGTH_UNIT",
+        "propertyValue": "mm"
+      },
+      {
+        "@id": 2542,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2543,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.MIX_FILE",
+        "propertyValue": "2014_08_05 Rezeptur_MI.xlsx"
+      },
+      {
+        "@id": 2544,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2545,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.OPERATOR_TIMESTAMP",
+        "propertyValue": "13:25:39"
+      },
+      {
+        "@id": 2546,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2547,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.REMARK",
+        "propertyValue": "Kraftgeregelt 3,9 kN/s"
+      },
+      {
+        "@id": 2548,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2549,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.SOFTWARE_SPECIFICATION",
+        "propertyValue": "MTS793|MPT|DEU|1|2|,|.|:|49|1|1|A"
+      },
+      {
+        "@id": 2550,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2551,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.SPECIMEN_NAME",
+        "propertyValue": "BA-Losert E-Modul 28d v. 04.08.14 Probe 4"
+      },
+      {
+        "@id": 2552,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2553,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.WEIGHT",
+        "propertyValue": "5342.0"
+      },
+      {
+        "@id": 2554,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2555,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "EXPERIMENTAL_STEP_EMODUL.WEIGHT_UNIT",
+        "propertyValue": "g"
+      },
+      {
+        "@id": 2556,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2557,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "OPERATOR_DATE",
+        "propertyValue": "2014-01-09 00:00:00 +0000"
+      },
+      {
+        "@id": 2558,
+        "@type": "as.dto.history.PropertyHistoryEntry",
+        "fetchOptions": {
+          "@id": 2559,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "propertyName": "TESTER_NAME",
+        "propertyValue": "Kh"
+      },
+      {
+        "@id": 2560,
+        "@type": "as.dto.history.RelationHistoryEntry",
+        "fetchOptions": {
+          "@id": 2561,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "relationType": "PARENT",
+        "relatedObjectId": {
+          "@id": 2562,
+          "permId": "20230321135948733-182",
+          "@type": "as.dto.sample.id.SamplePermId"
+        }
+      },
+      {
+        "@id": 2563,
+        "@type": "as.dto.history.RelationHistoryEntry",
+        "fetchOptions": {
+          "@id": 2564,
+          "@type": "as.dto.history.fetchoptions.HistoryEntryFetchOptions",
+          "count": null,
+          "from": null,
+          "cacheMode": "NO_CACHE",
+          "author": null,
+          "sort": null,
+          "sortBy": null
+        },
+        "validFrom": 1679407218612,
+        "validTo": null,
+        "author": null,
+        "relationType": "EXPERIMENT",
+        "relatedObjectId": {
+          "@id": 2565,
+          "permId": "20230321130335504-170",
+          "@type": "as.dto.experiment.id.ExperimentPermId"
+        }
+      }
+    ],
+    "tags": [],
+    "registrator": 405,
+    "modifier": 405,
+    "attachments": []
+  }
+}

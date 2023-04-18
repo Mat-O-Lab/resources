@@ -1,0 +1,33 @@
+prefixes:
+ base: "https://purl.matolab.org/mseo/methods/example/"
+ mid: "https://purl.matolab.org/mseo/mid/"
+ cco: "http://www.ontologyrepository.com/CommonCoreOntologies/"
+ obo: "http://purl.obolibrary.org/obo/"
+ pt: "http://www.daml.org/2003/01/periodictable/PeriodicTable#"
+ geo: "http://www.opengis.net/ont/geosparql#"
+ con: "http://w3id.org/concrete/"
+ 
+ pmd: "https://material-digital.de/pmdco/"
+ ns1: "http://wikiba.se/ontology#"
+ ns2: "http://wikiba.se/ontology/"
+ rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+ owl: "http://www.w3.org/2002/07/owl#"
+
+mappings:
+  experiment1:
+    sources:
+      - ['data.json~jsonpath', '$.20230321140018612-192[*]']
+    s: base:permId_$(permId.permId)
+    po:
+      - [a, cco:Specimen]
+      - [base:permid, $(permId.permId)]
+      - [rdfs:label, "experiment", xsd:string]
+      - [base:code, $(code)]
+      - [base:registrationDate, $(registrationDate)]
+  experiment2:
+    sources:
+      - ['data.json~jsonpath', '$.20230321140018612-192[*]']
+    s: base:id_$([0]["fetchOptions"]["@id"])
+    po:
+      - [a, mid:BWMD_00070]
+      - [cco:Heigth, $(registrationDate)]

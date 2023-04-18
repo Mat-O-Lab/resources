@@ -1,0 +1,27 @@
+prefixes:
+ base: "https://purl.matolab.org/mseo/methods/example/"
+ mid: "https://purl.matolab.org/mseo/mid/"
+ cco: "http://www.ontologyrepository.com/CommonCoreOntologies/"
+ obo: "http://purl.obolibrary.org/obo/"
+ pt: "http://www.daml.org/2003/01/periodictable/PeriodicTable#"
+ geo: "http://www.opengis.net/ont/geosparql#"
+ con: "http://w3id.org/concrete/"
+ 
+ pmd: "https://material-digital.de/pmdco/"
+ ns1: "http://wikiba.se/ontology#"
+ ns2: "http://wikiba.se/ontology/"
+ rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+ owl: "http://www.w3.org/2002/07/owl#"
+
+mappings:
+  person:
+    sources:
+      - ['data.json~jsonpath', '$.20230321140018612-192[*]']
+    s: base:permId/$(permId.permId)
+    po:
+      - [a, cco:Specimen]
+      - [base:permid, $(permId.permId)]
+      - [rdfs:label, "experiment", xsd:string]
+      - [base:code, $(code)]
+      - [base:registrationDate, $(registrationDate)]
+      - [base:properties, $(properties)]

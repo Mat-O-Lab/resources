@@ -16,7 +16,7 @@
     "tables": [
         {
             "@id": "table-1",
-            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
+            "url": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv",
             "dialect": {
                 "delimiter": ",",
                 "skipRows": 0,

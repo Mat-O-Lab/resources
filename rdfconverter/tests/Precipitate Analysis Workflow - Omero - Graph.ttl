@@ -1,0 +1,216 @@
+@prefix base: <https://w3id.org/pmd/ao/pawo/> .
+@prefix co: <https://w3id.org/pmd/co/> .
+@prefix csvw: <https://www.w3.org/ns/csvw#Table/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <https://material-digital.de/pmdco/> .
+@prefix ome: <https://github.com/Mat-O-Lab/OmeroExtractor/raw/main/ome.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+ome:rois a owl:ObjectProperty .
+
+ns1:hasCharacteristic a owl:ObjectProperty .
+
+ns1:hasParticipant a owl:ObjectProperty .
+
+base: a owl:Ontology ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Precipitate Analysis Workflow Ontology (PAWO)" ;
+    owl:versionInfo "1.0.0" .
+
+base:bG_Label_ a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:characteristic base:labelPrecipitates_ .
+
+base:darkfieldTransmissionElectronMicroscopyImaging_ a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    co:nextProcess base:precipitateAnalysisWorkflow_ .
+
+base:diskRadius_ a owl:NamedIndividual,
+        co:Metadata,
+        co:Radius,
+        co:SetPoint ;
+    co:characteristic base:medianFilter_ .
+
+base:kernel_ a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:characteristic base:dilation_ .
+
+base:thresholdMethod_ a owl:NamedIndividual,
+        co:Metadata,
+        co:Method,
+        co:SetPoint ;
+    co:characteristic base:thresholdImage_ .
+
+base:transmissionElectronMicroscopeSpecimen_ a owl:NamedIndividual,
+        co:Specimen ;
+    ns1:hasCharacteristic base:specimenAgingTemperature_,
+        base:specimenAgingTime_,
+        base:specimenCreepStess_,
+        base:specimenName_ ;
+    co:input base:DFTEMImaging .
+
+co:characteristic a owl:ObjectProperty .
+
+co:input a owl:ObjectProperty .
+
+co:nextProcess a owl:ObjectProperty .
+
+co:output a owl:ObjectProperty .
+
+co:resource a owl:ObjectProperty .
+
+co:subordinateProcess a owl:ObjectProperty .
+
+prov:SoftwareAgent a owl:Class .
+
+ome:Image a owl:Class .
+
+ome:Roi a owl:Class .
+
+ome:Shape a owl:Class .
+
+base:DFTEMImaging a owl:NamedIndividual ;
+    co:output base:darkfieldTransmissionElectronMicroscopeImage_ .
+
+base:darkfieldTransmissionElectronMicroscopeImage_ a owl:NamedIndividual,
+        ome:Image,
+        co:Image ;
+    ome:rois base:precipitateAnalysisWorkflowDataset_ ;
+    co:input base:precipitateAnalysisWorkflow_ .
+
+base:precipitateShape_ a owl:NamedIndividual,
+        ome:Shape,
+        co:Measurement,
+        co:PrimaryData ;
+    co:resource base:precipitateAnalysisWorkflowDataset_ .
+
+base:renderImage_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:grayscaleConversion_ .
+
+base:specimenAgingTemperature_ a owl:NamedIndividual,
+        co:AgingTemperature,
+        co:Metadata .
+
+base:specimenAgingTime_ a owl:NamedIndividual,
+        co:AgingTime,
+        co:Metadata .
+
+base:specimenCreepStess_ a owl:NamedIndividual,
+        co:CreepStress,
+        co:Metadata .
+
+base:specimenName_ a owl:NamedIndividual,
+        co:Metadata,
+        co:SpecimenName .
+
+base:statisticalAnalysisWorkflowDataset_ a owl:NamedIndividual,
+        co:Dataset ;
+    co:resource base:table_ .
+
+base:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input base:precipitateAnalysisWorkflowDataset_ ;
+    co:output base:statisticalAnalysisWorkflowDataset_ .
+
+base:table_ a owl:NamedIndividual,
+        csvw:Table .
+
+co:AgingTemperature a owl:Class .
+
+co:AgingTime a owl:Class .
+
+co:CreepStress a owl:Class .
+
+co:Image a owl:Class .
+
+co:Measurement a owl:Class .
+
+co:MeasuringProcess a owl:Class .
+
+co:Method a owl:Class .
+
+co:PrimaryData a owl:Class .
+
+co:Radius a owl:Class .
+
+co:Specimen a owl:Class .
+
+co:SpecimenName a owl:Class .
+
+co:TransmissionElectronMicroscopy a owl:Class .
+
+csvw:Table a owl:Class .
+
+base:clearBorder_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:labelPrecipitates_ .
+
+base:colorLabels_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:measureParameters_ .
+
+base:grayscaleConversion_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:medianFilter_ .
+
+base:measureParameters_ a owl:NamedIndividual,
+        co:MeasuringProcess ;
+    co:characteristic base:precipitateShape_ .
+
+base:morphologicalOpening_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:clearBorder_ .
+
+co:Dataset a owl:Class .
+
+co:ValueObject a owl:Class .
+
+base:dilation_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:morphologicalOpening_ .
+
+base:labelPrecipitates_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:colorLabels_ .
+
+base:medianFilter_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:thresholdImage_ .
+
+base:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
+        prov:SoftwareAgent,
+        co:AnalysingProcess ;
+    ns1:hasParticipant base:precipitateAnalysisWorkflow_ ;
+    co:nextProcess base:statisticalAnalysisWorkflow_ ;
+    co:output base:precipitateAnalysisWorkflowDataset_ ;
+    co:subordinateProcess base:clearBorder_,
+        base:colorLabels_,
+        base:dilation_,
+        base:grayscaleConversion_,
+        base:labelPrecipitates_,
+        base:measureParameters_,
+        base:medianFilter_,
+        base:morphologicalOpening_,
+        base:renderImage_,
+        base:thresholdImage_ .
+
+base:thresholdImage_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:dilation_ .
+
+base:precipitateAnalysisWorkflowDataset_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset .
+
+co:SetPoint a owl:Class .
+
+co:Metadata a owl:Class .
+
+co:AnalysingProcess a owl:Class .
+

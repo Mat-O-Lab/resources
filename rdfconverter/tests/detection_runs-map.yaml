@@ -25,7 +25,7 @@ mappings:
       - [str1, $(name)]
       - [str2, DiskradiusvaluePx]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:diskRadius_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:diskRadius_~iri']
   kernel_:
     sources: [data_entities]
     s: data:$(@id)
@@ -35,7 +35,7 @@ mappings:
       - [str1, $(name)]
       - [str2, DilationKernelSizePx]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:kernel_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:kernel_~iri']
   thresholdMethod_:
     sources: [data_entities]
     s: data:$(@id)
@@ -45,7 +45,7 @@ mappings:
       - [str1, $(name)]
       - [str2, ThresholdMethod]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:thresholdMethod_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:thresholdMethod_~iri']
   specimenAgingTemperature_:
     sources: [data_entities]
     s: data:$(@id)
@@ -55,7 +55,7 @@ mappings:
       - [str1, $(name)]
       - [str2, AgingTempC]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:specimenAgingTemperature_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:specimenAgingTemperature_~iri']
   specimenAgingTime_:
     sources: [data_entities]
     s: data:$(@id)
@@ -65,7 +65,7 @@ mappings:
       - [str1, $(name)]
       - [str2, AgingTimeH]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:specimenAgingTime_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:specimenAgingTime_~iri']
   specimenCreepStess_:
     sources: [data_entities]
     s: data:$(@id)
@@ -75,7 +75,7 @@ mappings:
       - [str1, $(name)]
       - [str2, CreepStressMpa]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:specimenCreepStess_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:specimenCreepStess_~iri']
   specimenName_:
     sources: [data_entities]
     s: data:$(@id)
@@ -85,4 +85,4 @@ mappings:
       - [str1, $(name)]
       - [str2, Specimenname]
     po:
-    - ['<https://w3id.org/pmd/co/resource>', 'method:specimenName_~iri']
+    - ['https://w3id.org/pmd/co/resource', 'method:specimenName_~iri']

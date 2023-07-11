@@ -16,7 +16,7 @@
     "tables": [
         {
             "@id": "table-1",
-            "url": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv",
+            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
             "dialect": {
                 "delimiter": ",",
                 "skipRows": 0,
@@ -229,12 +229,12 @@
                     }
                 ],
                 "primaryKey": "GID",
-                "aboutUrl": "#table-1-gid-{GID}"
+                "aboutUrl": "table-1-gid-{GID}"
             }
         }
     ],
     "prov:wasGeneratedBy": {
-        "@id": "https://csvtocsvw.matolab.org/api/annotate_upload?encoding=auto",
+        "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate_upload?encoding=auto",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
             "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0",
@@ -244,7 +244,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-04T08:46:18.184135",
+        "@value": "2023-07-11T09:34:47.680052",
         "@type": "xsd:dateTime"
     }
 }

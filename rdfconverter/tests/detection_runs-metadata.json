@@ -7,7 +7,8 @@
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "qudt": "http://qudt.org/schema/qudt/",
             "dc": "http://purl.org/dc/elements/1.1/",
-            "prov": "http://www.w3.org/ns/prov#"
+            "prov": "http://www.w3.org/ns/prov#",
+            "csv": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#"
         }
     ],
     "@id": "",
@@ -15,8 +16,8 @@
     "notes": [],
     "tables": [
         {
-            "@id": "table-1",
-            "url": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv",
+            "@id": "csv:table-1",
+            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
             "dialect": {
                 "delimiter": ",",
                 "skipRows": 0,
@@ -26,7 +27,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "@id": "table-1-GID",
+                        "@id": "csv:table-1-GID",
                         "name": "GID",
                         "titles": [
                             "GID",
@@ -42,7 +43,7 @@
                             "Unnamed: 0",
                             "Unnamed0"
                         ],
-                        "@id": "table-1-Unnamed0",
+                        "@id": "csv:table-1-Unnamed0",
                         "name": "Unnamed0",
                         "@type": [
                             "Column"
@@ -56,7 +57,7 @@
                             "SpecimenName",
                             "Specimenname"
                         ],
-                        "@id": "table-1-Specimenname",
+                        "@id": "csv:table-1-Specimenname",
                         "name": "Specimenname",
                         "@type": [
                             "Column"
@@ -70,7 +71,7 @@
                             "Aging Temp [\u00c2\u00b0C]",
                             "AgingTempC"
                         ],
-                        "@id": "table-1-AgingTempC",
+                        "@id": "csv:table-1-AgingTempC",
                         "name": "AgingTempC",
                         "@type": [
                             "Column"
@@ -84,7 +85,7 @@
                             "Aging Time [h]",
                             "AgingTimeH"
                         ],
-                        "@id": "table-1-AgingTimeH",
+                        "@id": "csv:table-1-AgingTimeH",
                         "name": "AgingTimeH",
                         "qudt:unit": {
                             "@id": "http://qudt.org/vocab/unit/HR",
@@ -102,7 +103,7 @@
                             "Creep Stress [MPa]",
                             "CreepStressMpa"
                         ],
-                        "@id": "table-1-CreepStressMpa",
+                        "@id": "csv:table-1-CreepStressMpa",
                         "name": "CreepStressMpa",
                         "qudt:unit": {
                             "@id": "http://qudt.org/vocab/unit/MegaPA",
@@ -120,7 +121,7 @@
                             "Dataset",
                             "Dataset"
                         ],
-                        "@id": "table-1-Dataset",
+                        "@id": "csv:table-1-Dataset",
                         "name": "Dataset",
                         "@type": [
                             "Column"
@@ -134,7 +135,7 @@
                             "Position_Id",
                             "PositionId"
                         ],
-                        "@id": "table-1-PositionId",
+                        "@id": "csv:table-1-PositionId",
                         "name": "PositionId",
                         "@type": [
                             "Column"
@@ -148,7 +149,7 @@
                             "Image",
                             "Image"
                         ],
-                        "@id": "table-1-Image",
+                        "@id": "csv:table-1-Image",
                         "name": "Image",
                         "@type": [
                             "Column"
@@ -162,7 +163,7 @@
                             "ROIs",
                             "Rois"
                         ],
-                        "@id": "table-1-Rois",
+                        "@id": "csv:table-1-Rois",
                         "name": "Rois",
                         "@type": [
                             "Column"
@@ -176,7 +177,7 @@
                             "DiskRadiusValue [px]",
                             "DiskradiusvaluePx"
                         ],
-                        "@id": "table-1-DiskradiusvaluePx",
+                        "@id": "csv:table-1-DiskradiusvaluePx",
                         "name": "DiskradiusvaluePx",
                         "@type": [
                             "Column"
@@ -190,7 +191,7 @@
                             "Threshold Method",
                             "ThresholdMethod"
                         ],
-                        "@id": "table-1-ThresholdMethod",
+                        "@id": "csv:table-1-ThresholdMethod",
                         "name": "ThresholdMethod",
                         "@type": [
                             "Column"
@@ -204,7 +205,7 @@
                             "Dilation Kernel Size [px]",
                             "DilationKernelSizePx"
                         ],
-                        "@id": "table-1-DilationKernelSizePx",
+                        "@id": "csv:table-1-DilationKernelSizePx",
                         "name": "DilationKernelSizePx",
                         "@type": [
                             "Column"
@@ -218,7 +219,7 @@
                             "Date",
                             "Date"
                         ],
-                        "@id": "table-1-Date",
+                        "@id": "csv:table-1-Date",
                         "name": "Date",
                         "@type": [
                             "Column"
@@ -229,7 +230,7 @@
                     }
                 ],
                 "primaryKey": "GID",
-                "aboutUrl": "table-1-gid-{GID}"
+                "aboutUrl": "csv:table-1-gid-{GID}"
             }
         }
     ],
@@ -244,7 +245,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-11T09:34:47.680052",
+        "@value": "2023-07-11T15:15:29.570052",
         "@type": "xsd:dateTime"
     }
 }

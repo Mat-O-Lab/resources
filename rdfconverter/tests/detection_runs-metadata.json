@@ -8,7 +8,7 @@
             "qudt": "http://qudt.org/schema/qudt/",
             "dc": "http://purl.org/dc/elements/1.1/",
             "prov": "http://www.w3.org/ns/prov#",
-            "csv": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#"
+            "csv": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#"
         }
     ],
     "@id": "",
@@ -17,7 +17,7 @@
     "tables": [
         {
             "@id": "csv:table-1",
-            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
+            "url": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv",
             "dialect": {
                 "delimiter": ",",
                 "skipRows": 0,

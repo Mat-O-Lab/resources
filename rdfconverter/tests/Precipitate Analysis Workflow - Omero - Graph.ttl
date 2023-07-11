@@ -1,4 +1,4 @@
-@prefix base: <https://w3id.org/pmd/ao/pawo/> .
+@prefix base: <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/Precipitate%20Analysis%20Workflow%20-%20Omero%20-%20Graph.ttl/> .
 @prefix co: <https://w3id.org/pmd/co/> .
 @prefix csvw: <https://www.w3.org/ns/csvw#Table/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .

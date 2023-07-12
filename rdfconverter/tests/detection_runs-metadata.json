@@ -73,6 +73,10 @@
                         ],
                         "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/table-1-AgingTempC",
                         "name": "AgingTempC",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/DEG_C",
+                            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                        },
                         "@type": [
                             "Column"
                         ],
@@ -127,7 +131,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -155,7 +159,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -169,7 +173,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -245,7 +249,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-12T09:22:05.260024",
+        "@value": "2023-07-12T13:28:34.365604",
         "@type": "xsd:dateTime"
     }
 }

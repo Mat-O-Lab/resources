@@ -8,16 +8,16 @@
             "qudt": "http://qudt.org/schema/qudt/",
             "dc": "http://purl.org/dc/elements/1.1/",
             "prov": "http://www.w3.org/ns/prov#",
-            "csv": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#"
+            "csv": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#"
         }
     ],
-    "@id": "",
+    "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
     "@type": "http://www.w3.org/ns/csvw#TableGroup",
     "notes": [],
     "tables": [
         {
-            "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1",
-            "url": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv",
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1",
+            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
             "dialect": {
                 "delimiter": ",",
                 "skipRows": 0,
@@ -27,7 +27,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-GID",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-GID",
                         "name": "GID",
                         "titles": [
                             "GID",
@@ -43,7 +43,7 @@
                             "Unnamed: 0",
                             "Unnamed0"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-Unnamed0",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-Unnamed0",
                         "name": "Unnamed0",
                         "@type": [
                             "Column"
@@ -57,7 +57,7 @@
                             "SpecimenName",
                             "Specimenname"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-Specimenname",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-Specimenname",
                         "name": "Specimenname",
                         "@type": [
                             "Column"
@@ -71,7 +71,7 @@
                             "Aging Temp [\u00c2\u00b0C]",
                             "AgingTempC"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-AgingTempC",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-AgingTempC",
                         "name": "AgingTempC",
                         "@type": [
                             "Column"
@@ -85,7 +85,7 @@
                             "Aging Time [h]",
                             "AgingTimeH"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-AgingTimeH",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-AgingTimeH",
                         "name": "AgingTimeH",
                         "qudt:unit": {
                             "@id": "http://qudt.org/vocab/unit/HR",
@@ -103,7 +103,7 @@
                             "Creep Stress [MPa]",
                             "CreepStressMpa"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-CreepStressMpa",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-CreepStressMpa",
                         "name": "CreepStressMpa",
                         "qudt:unit": {
                             "@id": "http://qudt.org/vocab/unit/MegaPA",
@@ -121,7 +121,7 @@
                             "Dataset",
                             "Dataset"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-Dataset",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-Dataset",
                         "name": "Dataset",
                         "@type": [
                             "Column"
@@ -135,7 +135,7 @@
                             "Position_Id",
                             "PositionId"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-PositionId",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-PositionId",
                         "name": "PositionId",
                         "@type": [
                             "Column"
@@ -149,7 +149,7 @@
                             "Image",
                             "Image"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-Image",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-Image",
                         "name": "Image",
                         "@type": [
                             "Column"
@@ -163,7 +163,7 @@
                             "ROIs",
                             "Rois"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-Rois",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-Rois",
                         "name": "Rois",
                         "@type": [
                             "Column"
@@ -177,7 +177,7 @@
                             "DiskRadiusValue [px]",
                             "DiskradiusvaluePx"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-DiskradiusvaluePx",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-DiskradiusvaluePx",
                         "name": "DiskradiusvaluePx",
                         "@type": [
                             "Column"
@@ -191,7 +191,7 @@
                             "Threshold Method",
                             "ThresholdMethod"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-ThresholdMethod",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-ThresholdMethod",
                         "name": "ThresholdMethod",
                         "@type": [
                             "Column"
@@ -205,7 +205,7 @@
                             "Dilation Kernel Size [px]",
                             "DilationKernelSizePx"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-DilationKernelSizePx",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-DilationKernelSizePx",
                         "name": "DilationKernelSizePx",
                         "@type": [
                             "Column"
@@ -219,7 +219,7 @@
                             "Date",
                             "Date"
                         ],
-                        "@id": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-Date",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-Date",
                         "name": "Date",
                         "@type": [
                             "Column"
@@ -230,7 +230,7 @@
                     }
                 ],
                 "primaryKey": "GID",
-                "aboutUrl": "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-gid-{GID}"
+                "aboutUrl": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv#table-1-gid-{GID}"
             }
         }
     ],
@@ -245,7 +245,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-11T15:52:41.590697",
+        "@value": "2023-07-12T06:18:54.434414",
         "@type": "xsd:dateTime"
     }
 }

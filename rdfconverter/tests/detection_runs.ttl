@@ -1,5 +1,5 @@
 @base <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/> .
-@prefix csv: <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#> .
+@prefix csv: <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/> .
 @prefix csvw: <http://www.w3.org/ns/csvw#> .
 @prefix meta: <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs-metadata.json/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -20,7 +20,7 @@
 <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv> a csvw:TableGroup,
         prov:Usage ;
     csvw:table <table-1> ;
-    prov:generatedAtTime "2023-07-12T06:18:54.434414"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-12T09:22:05.260024"^^xsd:dateTime ;
     prov:hadRole csvw:csvEncodedTabularData ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate_upload?encoding=auto> .
 
@@ -30,358 +30,358 @@
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
-            csvw:describes <table-1-gid-4> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=5> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-69> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=70> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-114> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=115> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-59> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=60> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-78> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=79> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-77> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=78> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-19> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=20> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-35> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=36> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-85> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=86> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-42> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=43> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-115> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=116> ],
-        [ a csvw:Row ;
             csvw:describes <table-1-gid-58> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=59> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-51> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=52> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-73> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=74> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-34> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=35> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-75> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=76> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-24> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=25> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-7> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=8> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-8> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=9> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-79> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=80> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-110> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=111> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-87> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=88> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-112> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=113> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-32> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=33> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-98> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=99> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-12> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=13> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-6> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=7> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-101> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=102> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-25> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=26> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-104> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=105> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-90> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=91> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-96> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=97> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-18> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=19> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-46> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=47> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-29> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=30> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-86> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=87> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-64> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=65> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-65> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=66> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-93> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=94> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-17> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=18> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-74> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=75> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-31> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=32> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-49> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=50> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-54> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=55> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-50> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=51> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-52> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=53> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-108> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=109> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-37> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=38> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-13> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=14> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-80> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=81> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-92> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=93> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-99> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=100> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-41> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=42> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-16> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=17> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-68> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=69> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-27> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=28> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-3> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=4> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-55> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=56> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-83> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=84> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-30> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=31> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-67> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=68> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-111> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=112> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-15> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=16> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-102> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=103> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-1> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=2> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-109> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=110> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-0> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=1> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-95> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=96> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-23> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=24> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-44> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=45> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-14> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=15> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-88> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=89> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-113> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=114> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-82> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=83> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-36> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=37> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-40> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=41> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-21> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=22> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-97> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=98> ],
+            csvw:url <row=59> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-9> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=10> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-107> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=108> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-57> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=58> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-53> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=54> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-70> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=71> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-28> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=29> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-33> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=34> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-5> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=6> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-20> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=21> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-56> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=57> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-38> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=39> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-62> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=63> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-91> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=92> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-66> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=67> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-106> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=107> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-11> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=12> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-60> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=61> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-26> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=27> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-89> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=90> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-105> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=106> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-22> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=23> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-94> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=95> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-81> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=82> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-10> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=11> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-43> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=44> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-100> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=101> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-63> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=64> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-45> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=46> ],
+            csvw:url <row=10> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-2> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=3> ],
+            csvw:url <row=3> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-71> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=72> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-72> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=73> ],
+            csvw:describes <table-1-gid-16> ;
+            csvw:url <row=17> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-103> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=104> ],
+            csvw:url <row=104> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-84> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=85> ],
+            csvw:describes <table-1-gid-36> ;
+            csvw:url <row=37> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-47> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=48> ],
+            csvw:describes <table-1-gid-15> ;
+            csvw:url <row=16> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-85> ;
+            csvw:url <row=86> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-10> ;
+            csvw:url <row=11> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-106> ;
+            csvw:url <row=107> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-108> ;
+            csvw:url <row=109> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-94> ;
+            csvw:url <row=95> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-79> ;
+            csvw:url <row=80> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-110> ;
+            csvw:url <row=111> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-77> ;
+            csvw:url <row=78> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-112> ;
+            csvw:url <row=113> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-7> ;
+            csvw:url <row=8> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-35> ;
+            csvw:url <row=36> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-75> ;
+            csvw:url <row=76> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-6> ;
+            csvw:url <row=7> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-29> ;
+            csvw:url <row=30> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-92> ;
+            csvw:url <row=93> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-71> ;
+            csvw:url <row=72> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-53> ;
+            csvw:url <row=54> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-55> ;
+            csvw:url <row=56> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-76> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=77> ],
+            csvw:url <row=77> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-89> ;
+            csvw:url <row=90> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-37> ;
+            csvw:url <row=38> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-111> ;
+            csvw:url <row=112> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-50> ;
+            csvw:url <row=51> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-32> ;
+            csvw:url <row=33> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-20> ;
+            csvw:url <row=21> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-0> ;
+            csvw:url <row=1> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-96> ;
+            csvw:url <row=97> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-68> ;
+            csvw:url <row=69> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-87> ;
+            csvw:url <row=88> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-44> ;
+            csvw:url <row=45> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-62> ;
+            csvw:url <row=63> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-52> ;
+            csvw:url <row=53> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-61> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=62> ],
+            csvw:url <row=62> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-39> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=40> ],
+            csvw:describes <table-1-gid-38> ;
+            csvw:url <row=39> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-4> ;
+            csvw:url <row=5> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-28> ;
+            csvw:url <row=29> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-40> ;
+            csvw:url <row=41> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-69> ;
+            csvw:url <row=70> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-30> ;
+            csvw:url <row=31> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-91> ;
+            csvw:url <row=92> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-45> ;
+            csvw:url <row=46> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-46> ;
+            csvw:url <row=47> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-102> ;
+            csvw:url <row=103> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-115> ;
+            csvw:url <row=116> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-49> ;
+            csvw:url <row=50> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-64> ;
+            csvw:url <row=65> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-8> ;
+            csvw:url <row=9> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-113> ;
+            csvw:url <row=114> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-98> ;
+            csvw:url <row=99> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-74> ;
+            csvw:url <row=75> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-14> ;
+            csvw:url <row=15> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-107> ;
+            csvw:url <row=108> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-109> ;
+            csvw:url <row=110> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-17> ;
+            csvw:url <row=18> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-21> ;
+            csvw:url <row=22> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-43> ;
+            csvw:url <row=44> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-19> ;
+            csvw:url <row=20> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-101> ;
+            csvw:url <row=102> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-33> ;
+            csvw:url <row=34> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-41> ;
+            csvw:url <row=42> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-84> ;
+            csvw:url <row=85> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-11> ;
+            csvw:url <row=12> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-59> ;
+            csvw:url <row=60> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-70> ;
+            csvw:url <row=71> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-23> ;
+            csvw:url <row=24> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-82> ;
+            csvw:url <row=83> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-47> ;
+            csvw:url <row=48> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-42> ;
+            csvw:url <row=43> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-13> ;
+            csvw:url <row=14> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-54> ;
+            csvw:url <row=55> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-51> ;
+            csvw:url <row=52> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-88> ;
+            csvw:url <row=89> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-104> ;
+            csvw:url <row=105> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-83> ;
+            csvw:url <row=84> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-60> ;
+            csvw:url <row=61> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-100> ;
+            csvw:url <row=101> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-81> ;
+            csvw:url <row=82> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-114> ;
+            csvw:url <row=115> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-31> ;
+            csvw:url <row=32> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-63> ;
+            csvw:url <row=64> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-90> ;
+            csvw:url <row=91> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-25> ;
+            csvw:url <row=26> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-1> ;
+            csvw:url <row=2> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-80> ;
+            csvw:url <row=81> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-105> ;
+            csvw:url <row=106> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-97> ;
+            csvw:url <row=98> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-66> ;
+            csvw:url <row=67> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-34> ;
+            csvw:url <row=35> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-73> ;
+            csvw:url <row=74> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-93> ;
+            csvw:url <row=94> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-86> ;
+            csvw:url <row=87> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-3> ;
+            csvw:url <row=4> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-12> ;
+            csvw:url <row=13> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-27> ;
+            csvw:url <row=28> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-24> ;
+            csvw:url <row=25> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-22> ;
+            csvw:url <row=23> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-48> ;
-            csvw:url <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/row=49> ] ;
-    csvw:tableSchema [ csvw:aboutUrl "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#table-1-gid-{GID}"^^csvw:uriTemplate ;
+            csvw:url <row=49> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-56> ;
+            csvw:url <row=57> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-26> ;
+            csvw:url <row=27> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-18> ;
+            csvw:url <row=19> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-5> ;
+            csvw:url <row=6> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-72> ;
+            csvw:url <row=73> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-95> ;
+            csvw:url <row=96> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-65> ;
+            csvw:url <row=66> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-67> ;
+            csvw:url <row=68> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-78> ;
+            csvw:url <row=79> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-39> ;
+            csvw:url <row=40> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-99> ;
+            csvw:url <row=100> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-57> ;
+            csvw:url <row=58> ] ;
+    csvw:tableSchema [ csvw:aboutUrl "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
             csvw:column ( <table-1-GID> <table-1-Unnamed0> <table-1-Specimenname> <table-1-AgingTempC> <table-1-AgingTimeH> <table-1-CreepStressMpa> <table-1-Dataset> <table-1-PositionId> <table-1-Image> <table-1-Rois> <table-1-DiskradiusvaluePx> <table-1-ThresholdMethod> <table-1-DilationKernelSizePx> <table-1-Date> ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-07-12T06:37:01.463690"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-12T09:26:27.924323"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs-metadata.json>,
         <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv> ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .

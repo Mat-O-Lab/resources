@@ -1,4 +1,4 @@
-@base <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#> .
+@base <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/> .
 @prefix csv: <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#> .
 @prefix meta: <https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs-metadata.json/> .

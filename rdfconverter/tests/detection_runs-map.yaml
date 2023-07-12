@@ -1,5 +1,5 @@
 prefixes: {bfo: 'http://purl.obolibrary.org/obo/', brick: 'https://brickschema.org/schema/Brick#',
-  csvw: 'http://www.w3.org/ns/csvw#', data: 'https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs-metadata.json/',
+  csvw: 'http://www.w3.org/ns/csvw#', data: 'https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv#',
   dc: 'http://purl.org/dc/elements/1.1/', dcam: 'http://purl.org/dc/dcam/', dcat: 'http://www.w3.org/ns/dcat#',
   dcmitype: 'http://purl.org/dc/dcmitype/', dcterms: 'http://purl.org/dc/terms/',
   doap: 'http://usefulinc.com/ns/doap#', foaf: 'http://xmlns.com/foaf/0.1/', geo: 'http://www.opengis.net/ont/geosparql#',

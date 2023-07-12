@@ -1,5 +1,4 @@
 prefixes: {bfo: 'http://purl.obolibrary.org/obo/', csvw: 'http://www.w3.org/ns/csvw#',
-  data: 'https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/detection_runs.csv/',
   method: 'https://github.com/Mat-O-Lab/resources/raw/main/rdfconverter/tests/Precipitate%20Analysis%20Workflow%20-%20Omero%20-%20Graph.ttl/',
   owl: 'http://www.w3.org/2002/07/owl#', rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#', xml: 'http://www.w3.org/XML/1998/namespace',
@@ -11,7 +10,7 @@ sources:
 mappings:
   diskRadius_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
@@ -21,7 +20,7 @@ mappings:
     - ['https://w3id.org/pmd/co/resource', 'method:diskRadius_~iri']
   kernel_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
@@ -31,7 +30,7 @@ mappings:
     - ['https://w3id.org/pmd/co/resource', 'method:kernel_~iri']
   thresholdMethod_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
@@ -41,7 +40,7 @@ mappings:
     - ['https://w3id.org/pmd/co/resource', 'method:thresholdMethod_~iri']
   specimenAgingTemperature_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
@@ -51,7 +50,7 @@ mappings:
     - ['https://w3id.org/pmd/co/resource', 'method:specimenAgingTemperature_~iri']
   specimenAgingTime_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
@@ -61,7 +60,7 @@ mappings:
     - ['https://w3id.org/pmd/co/resource', 'method:specimenAgingTime_~iri']
   specimenCreepStess_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
@@ -71,7 +70,7 @@ mappings:
     - ['https://w3id.org/pmd/co/resource', 'method:specimenCreepStess_~iri']
   specimenName_:
     sources: [data_entities]
-    s: data:$(@id)
+    s: $(@id)
     condition:
       function: equal
       parameters:
